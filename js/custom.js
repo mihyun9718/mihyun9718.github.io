@@ -9,7 +9,7 @@ $(function () {
         .from('.intro .star', { y: 200, opacity: 0, rotate: 720 })
 
     $('#portfolio').fullpage({
-        anchors: ['intro', 'pf01', 'pf02', 'pf03', 'pf04', 'pf05'],
+        anchors: ['intro', 'PF01', 'PF02', 'PF03', 'PF04', 'PF05'],
         css3: false,
         onLeave: function (idx, nidx, dir) {
             console.log(idx, nidx, dir);
@@ -20,16 +20,12 @@ $(function () {
                 tl.restart();
             }
 
-            $('.num').text;
+            $('.num').text(nidx - 1);
 
             $('.zz_bg').css({
                 background: `url(./img/zz0${nidx - 1}.png) no-repeat center center/cover`
             })
-
-
-
         }
-
     });
 
     // $('#header .gnb li a').on('click', function () {
@@ -63,18 +59,20 @@ $(function () {
 
 $(function () {
     const tl = gsap.timeline({
-        repeat: -1
+        repeat: -8
     });
 
     tl.to(`#gg`, {
         motionPath: {
             path: `#path`,
             align: `#path`,
-            alignOrigin: [0.3, 0.7],
+            alignOrigin: [0.5, 0.7],
             autoRotate: true,
 
         },
-        duration: 5,
+        duration: 6,
         // delay: 5 * num,
     })
 })
+
+
