@@ -1,0 +1,323 @@
+.const_iconbox img {
+    width: 80px;
+    height: 80px;
+}
+
+.const_iconbox .gem {
+    position: absolute;
+    top: 37%;
+    left: 32%;
+}
+
+.const_iconbox .rau {
+    position: absolute;
+    top: 22%;
+    left: 35%;
+
+}
+
+.const_iconbox .ari {
+    position: absolute;
+    top: 16%;
+    left: 43%;
+
+}
+
+.const_iconbox .pis {
+    position: absolute;
+    top: 10%;
+    left: 54%;
+
+}
+
+.const_iconbox .aqu {
+    position: absolute;
+    top: 16%;
+    left: 66%;
+}
+
+
+
+.const_iconbox .can {
+    position: absolute;
+    top: 54%;
+    left: 35%;
+
+}
+
+.const_iconbox .sag {
+    position: absolute;
+    top: 52%;
+    right: 23%;
+}
+
+.const_iconbox .sco {
+    position: absolute;
+    top: 64%;
+    right: 28%;
+
+}
+
+.const_iconbox .lib {
+    position: absolute;
+    top: 71%;
+    right: 37%;
+}
+
+.const_iconbox .vir {
+    position: absolute;
+    top: 71%;
+    left: 49%;
+}
+
+.const_iconbox .leo {
+    position: absolute;
+    top: 65%;
+    left: 41%;
+}
+
+.iconbx .cap_icon img {
+    width: 150px;
+    height: 200px;
+}
+
+.iconbx .cap img {
+    width: 200px;
+    height: 200px;
+}
+
+.iconbx .cap {
+    position: absolute;
+    top: 19%;
+    right: 18%;
+    transform: translate(7%,0%);
+}
+
+.iconbx .cap_icon {
+    position: absolute;
+    top: 20%;
+    right: 19%;
+}
+
+.section .Shadows {
+    position: absolute;
+    top: 36%;
+    right: 21%;
+    transform: translate(10%,0%);
+
+    color: #fff;
+    font-size: 28px;
+}
+
+.section .inner .serif {
+    position: absolute;
+    top: 39%;
+    right: 20%;
+    transform: translate(2%,10%);
+
+    color: #d3d3d3;
+    font-size: 12px;
+}
+
+.intro .cicle {
+    position: absolute;
+    top: 24%;
+    left: 38%;
+}
+
+
+.intro .earthicon02 {
+    width: 0px;
+}
+
+.intro .cons_sunicon02 {
+    width: 0px;
+}
+
+.intro .path1 svg {
+    width: 0px;
+}
+
+@media (max-width:768px) {
+    .intro .txtbox strong {
+        position: absolute;
+        bottom: 27%;
+        left: 50%;
+        transform: translate(0%, 0%);
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .intro .cicle {
+        display: none;
+    }
+
+    .intro .cons_sunicon {
+        display: none;
+    }
+
+    .intro .cons_earthicon {
+        display: none;
+    }
+
+    .intro .const_imgbox .cons_sunicon02{
+        position: fixed;
+    }
+
+    .intro .const_imgbox .cons_sunicon02 {
+        position: absolute;
+        top: 28%;
+        left: 45%;
+        width: 38px;
+    }
+
+    .intro .earthicon02 {
+        position: absolute;
+        top: 30%;
+        left: 9%;
+        width: 30px;
+    }
+
+
+    .intro .path1 {
+        position: absolute;
+        top: 10%;
+        left: 12%;
+    }
+
+    .intro .path1 svg {
+        width:280px; 
+        height:300px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .portfolio .inner {
+        position: relative;
+    }
+
+    .const_iconbox img {
+        width: 38px;
+        height: 30px;
+    }
+    
+    .const_iconbox .gem {
+        position: absolute;
+        top: 27%;
+        left: 2%;
+        transform: translate(-10%, 0%);
+    }
+
+    
+    .const_iconbox .rau {
+        position: absolute;
+        top: 19%;
+        left: 6%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .ari {
+        position: absolute;
+        top: 16%;
+        left: 23%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .pis {
+        position: absolute;
+        top: 12%;
+        left: 43%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .aqu {
+        position: absolute;
+        top: 14%;
+        right: 26%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .can {
+        position: absolute;
+        top: 37%;
+        left: 5%;
+        transform: translate(0%, 0%);
+    }
+
+    .const_iconbox .sag {
+        position: absolute;
+        top: 44%;
+        left: 13%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .sco {
+        position: absolute;
+        top: 47%;
+        left: 29%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .lib {
+        position: absolute;
+        top: 49%;
+        left: 48%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .vir {
+        position: absolute;
+        top: 46%;
+        left: 66%;
+        transform: translate(0%, 0%);
+    }
+    
+    .const_iconbox .leo {
+        position: absolute;
+        top: 42%;
+        left: 82%;
+        transform: translate(0%, 0%);
+    }
+    
+    .iconbx .cap_icon img {
+        width: 70px;
+        height: 78px;
+    }
+
+    .iconbx .cap_icon {
+        position: absolute;
+        top: 18%;
+        right: 7%;
+        transform: translate(0%, 0%);
+    }
+    
+    .iconbx .cap img {
+        width: 95px;
+        height: 90px;
+    }
+
+    .iconbx .cap {
+        position: absolute;
+        top: 17%;
+        right: 3%;
+        transform: translate(0%, 0%);
+    }
+
+        
+    .section .inner .serif {
+        position: absolute;
+        top: 28%;
+        right: 5%;
+        transform: translate(0%, 0%);
+    
+        color: #ddd;
+        font-size: 8px;
+    }
+
+    .section .Shadows {
+        font-size: 0px;
+    }
+}
